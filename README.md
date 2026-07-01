@@ -1,8 +1,5 @@
 # Robotic-Arm
 
-**Project 1 — Robotic Arm Kinematics & Path Planning**
-DecodeLabs Robotics & Automation Track, Batch 2026
-
 A simulated 6-DOF robotic arm that moves from Point A to Point B
 using Inverse Kinematics, generates a smooth collision-free
 trajectory, and executes it in ROS 2 + Gazebo.
@@ -195,6 +192,3 @@ and replace the call in `motion_node.py` — the rest of the pipeline
 | "Collision Detected" every time | `min_link_separation` in `collision_checker.py` may be too generous for your URDF's actual link sizes — measure and adjust |
 | `xacro` command not found | `sudo apt install ros-<distro>-xacro` |
 
----
-
-Built for DecodeLabs · Batch 2026 · decodelabs.tech@gmail.com
