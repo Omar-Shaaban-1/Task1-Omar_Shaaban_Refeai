@@ -10,7 +10,6 @@ trajectory, and executes it in ROS 2 + Gazebo.
 
 ```
 Robotic-Arm/
-├── README.md                    <- you are here
 ├── package.xml                  <- ROS 2 package manifest
 ├── setup.py / setup.cfg         <- Python package build config
 ├── resource/robotic_arm         <- ROS 2 package marker file
@@ -26,6 +25,7 @@ Robotic-Arm/
 │   └── gazebo.launch.py         <- Full physics simulation
 ├── config/controllers.yaml      <- PID gains for each joint
 └── test/test_kinematics.py      <- Unit tests (no ROS required)
+README.md                    <- you are here
 ```
 
 ## How the pieces fit together (the pipeline)
